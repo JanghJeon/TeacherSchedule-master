@@ -13,7 +13,7 @@
         android:textSize="15sp"
         android:textStyle="bold" />
 
-    <Button
+    <ImageButton
         android:id="@+id/btnSche"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,15 +21,18 @@
         android:layout_centerVertical="true"
         android:layout_marginRight="5dp"
         android:text="Sche"
-        />
+        android:src="@android:drawable/ic_menu_my_calendar"
+        android:background="#00ffffff" />
 
-    <Button
+    <ImageButton
         android:id="@+id/btnEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toLeftOf="@id/btnSche"
         android:layout_centerVertical="true"
         android:layout_marginRight="10dp"
-        android:text="Email" />
+        android:text="Email"
+        android:src="@android:drawable/ic_dialog_email"
+        android:background="#00ffffff" />
 
 </RelativeLayout>
